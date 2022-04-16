@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to dress</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="querries.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="day-info grid grid-3--cols grid-2--rows">
+        <div class="info center card">
+          <p class="time"></p>
+          <p class="date"></p>
+          <p class="city"></p>
+          <div class="hourly"></div>
+        </div>
+        <div class="forecast-info center card">
+          <img class="icon icon-current" alt="weather icon" />
+          <p class="feels"></p>
+          <p class="icon-text"></p>
+          <div class="weather">
+            <p class="temp"></p>
+            <p class="wind--speed"></p>
+            <p class="humidity"></p>
+          </div>
+        </div>
+        <div class="warderobe center card">
+          <div class="grid grid-4--cols">
+            <img class="top" />
+            <img class="bottom" />
+            <img class="shoes" />
+            <img class="accesories" />
+          </div>
+          <p class="warderobe-desc"></p>
+        </div>
+        <div class="daily-padding">
+          <div class="daily center"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="error-state hidden">
+      <h2 class="copy">Please allow your browser use your location.</h2>
+      <h3 class="copy-2">Otherwise we are not able to show you our app.</h3>
+    </div>
+  </body>
+</html>

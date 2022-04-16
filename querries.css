@@ -1,0 +1,79 @@
+@media (max-width: 1330px) {
+  .day-info {
+    padding: 5rem;
+  }
+
+  .main {
+    max-width: 133rem;
+  }
+}
+
+@media (max-width: 1230px) {
+  .weather p {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    padding: 3rem;
+  }
+  .main {
+    max-width: 123rem;
+  }
+}
+
+@media (max-width: 1160px) {
+  .daily-info {
+    width: 10rem;
+  }
+  .daily {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-direction: row;
+    justify-content: start;
+    margin: 1rem;
+  }
+
+  .main {
+    max-width: 116rem;
+  }
+
+  .daily-padding {
+    grid-column: auto;
+    font-size: 2.5rem;
+    box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 20%),
+      -8px -8px 12px 0 rgb(255 255 255 / 30%);
+    border-radius: 50px;
+    height: 99%;
+    margin: auto 0;
+    padding: 1.5rem 1rem;
+    max-width: 40rem;
+    display: flex;
+  }
+
+  .daily-info {
+    box-shadow: none;
+    /* background-color: #e0eaf2; */
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .date-daily {
+    font-size: 1.5rem;
+  }
+
+  .grid-3--cols {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+@media (max-width: 855px) {
+  .grid-3--cols {
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+  }
+  .main {
+    max-width: 85.5rem;
+  }
+}
